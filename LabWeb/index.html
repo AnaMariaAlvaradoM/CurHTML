@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- Cabecera con menú -->
+    <header>
+        <h1>¡Hola, mi nombre es Ana</h1>
+        <nav>
+            <a href="#sobre-mi">Sobre mí</a> |
+            <a href="#hobbies">Mis Hobbies</a> |
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Sección "Sobre mí" -->
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <img src="tu-foto.jpg" alt="Foto personal" width="200">
+        <p> ¡Bienvenidx a mi página!</p>
+    </section>
+
+    <!-- Sección "Mis Hobbies" -->
+    <section id="hobbies">
+        <h2>Mis Hobbies</h2>
+        <ul>
+            <li>Leer</li>
+            <li>robotica y eléctornica</li>
+            <li>Cocinar</li>         
+            <li>Leer</li>
+            <li>robotica y eléctornica</li>
+            <li>Cocinar</li>
+            <li>Leer</li>
+            <li>robotica y eléctornica</li>
+            <li>Cocinar</li>         
+            <li>Leer</li>
+            <li>robotica y eléctornica</li>
+            <li>Cocinar</li>
+        </ul>
+    </section>
+
+    <!-- Sección "Contacto" -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" placeholder="Tu nombre">
+            <button type="button" onclick="saludar()">Enviar</button>
+        </form>
+        <p id="mensaje"></p>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Mi Página</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

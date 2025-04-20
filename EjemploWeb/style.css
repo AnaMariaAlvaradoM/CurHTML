@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    background: white;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+  }
+  /* .eliminar {
+    background: #ff4444;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  } */
+  input {
+    padding: 8px;
+    width: 70%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  /* button:not(.eliminar) {
+    padding: 8px 15px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  } */
+#agregar{
+  padding: 8px 15px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#btn-login { 
+  width: 120px; 
+  padding: 8px 15px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}  /* Estilo único */
+
+
+.btn { padding: 10px; }       /* Estilo compartido */
+.btn-azul { background: blue; }
+.btn-rojo { background: red; }
+
+
+img {
+  /* Tamaño y ajuste */
+  max-width: 100%;    /* Evita que la imagen desborde su contenedor */
+  height: auto;       /* Mantiene la proporción original */
+  display: block;     /* Elimina espacio fantasma debajo (comportamiento inline por defecto) */
+
+  /* Bordes y sombra */
+  border-radius: 8px; /* Esquinas redondeadas */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+
+  /* Margen y alineación */
+  margin: 1rem auto;  /* Centrado horizontal con margen vertical */
+  
+  /* Transición para efectos interactivos */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
